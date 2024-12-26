@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: FloatingActionButton.extended(
+        key: const Key('btnIncrementar'),
         onPressed: () => controller.counter.value++,
         label: const Text('Incrementar'),
         icon: const Icon(Icons.plus_one),
